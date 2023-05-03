@@ -7,9 +7,126 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e8e8e8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* li{
+  list-style: none;
+ 
+} */
+.card_container{
+  display: flex;
+  padding:  0 15px;
+}
+.description_film{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.text{
+  font-weight: 700;
+}
+.back_Btn{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  background-color:cornflowerblue;
+  padding: 4px 25px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: all 250ms ease-out;
+}
+
+.back_Btn:hover{
+  background-color: blue;
+  color: aliceblue;
+
+}
+.btn_wrapper{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+  
+}
+
+.links_details{
+  display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background-color: cornflowerblue;
+    padding: 4px 25px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: all 250ms ease-out;
+    min-width: 108px;
+    text-align: center;
+}
+
+.list_cast{
+  padding-top: 20px;
+    display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+}
+
+.list_item{
+  list-style: none;
+   min-width: 100px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.img_actor{
+  display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .title_img{
+  padding: 10px 0;
+  display: inline-block;
+  height: 10%;
+ }
+
+.name_actor{
+  font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 54px;
+}
+.no_img{
+  display: block;
+  font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 6px 0;
+    height: 100%;
+    background-color: lightcyan;
+    min-width: 200px;
+}
+
+.list_item-rew{
+  border: 1px dashed lightgrey;
+  padding: 5px 15px;
+}
+.author_name{
+  font-weight: 700;
+}
+.rew_content{
+  height: 120px;
+  overflow-y:auto;
 }
