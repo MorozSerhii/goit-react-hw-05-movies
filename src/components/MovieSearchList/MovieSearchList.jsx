@@ -1,5 +1,5 @@
 import { searchMovie } from 'Api/Api';
-import { Link, useSearchParams, useLocation } from 'react-router-dom';
+import { useSearchParams, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Loader from 'components/Loader/Loader';
 import { Btn, Input, Label, ListLink } from './MovieSearchList.styled';
